@@ -1,0 +1,41 @@
+<svg width="59" height="60" viewBox="0 0 59 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Flag_of_the_United_Kingdom 1">
+<g clip-path="url(#clip0_297_1800)">
+<g id="Clip path group">
+<mask id="mask0_297_1800" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="2" width="55" height="56">
+<g id="s">
+<path id="Vector" d="M2 2V58H56.7826V2H2Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_297_1800)">
+<g id="Group">
+<path id="Vector_2" d="M2 2V58H56.7826V2H2Z" fill="#012169"/>
+<path id="Vector_3" d="M2 2L56.7826 58ZM56.7826 2L2 58Z" fill="black"/>
+<path id="Vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M23.2663 30L0.774902 7.0088L3.22486 -3.00879L29.3912 23.739L55.5575 -3.00879L58.0075 7.0088L35.5161 30L58.0075 52.9912L55.5575 63.0088L29.3912 36.261L3.22486 63.0088L0.774902 52.9912L23.2663 30Z" fill="white"/>
+<g id="Clip path group_2">
+<mask id="mask1_297_1800" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="2" width="55" height="56">
+<g id="t">
+<path id="Vector_4" d="M29.3913 30H56.7826V58L29.3913 30ZM29.3913 30V58H2L29.3913 30ZM29.3913 30H2V2L29.3913 30ZM29.3913 30V2H56.7826L29.3913 30Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_297_1800)">
+<path id="Vector_5" d="M2 2L56.7826 58ZM56.7826 2L2 58Z" fill="black"/>
+<path id="Vector (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd" d="M25.308 30.0001L1.18335 5.33928L2.81665 -1.33911L29.3913 25.8261L55.966 -1.33911L57.5993 5.33928L33.4746 30.0001L57.5993 54.6609L55.966 61.3393L29.3913 34.1741L2.81665 61.3393L1.18335 54.6609L25.308 30.0001Z" fill="#C8102E"/>
+</g>
+</g>
+<path id="Vector_6" d="M29.3913 2V58ZM2 30H56.7826Z" fill="black"/>
+<path id="Vector (Stroke)_3" fill-rule="evenodd" clip-rule="evenodd" d="M24.8261 20.6667V2H33.9565V20.6667H56.7826V39.3333H33.9565V58H24.8261V39.3333H2V20.6667H24.8261Z" fill="white"/>
+<path id="Vector_7" d="M29.3913 2V58ZM2 30H56.7826Z" fill="black"/>
+<path id="Vector (Stroke)_4" fill-rule="evenodd" clip-rule="evenodd" d="M26.6522 24.4V2H32.1304V24.4H56.7826V35.6H32.1304V58H26.6522V35.6H2V24.4H26.6522Z" fill="#C8102E"/>
+</g>
+</g>
+</g>
+</g>
+<rect x="1" y="1" width="56.7826" height="58" rx="28.3913" stroke="white" stroke-opacity="0.5" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_297_1800">
+<rect x="2" y="2" width="54.7826" height="56" rx="27.3913" fill="white"/>
+</clipPath>
+</defs>
+</svg>

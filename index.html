@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Taxi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+    <header class="fixed">
+        <div class="header__container header-nav">
+            <a href="#hero" class="header__logo logo" >
+              <img src="assets/img/taxi-logo.svg" alt="">
+            </a>
+            <nav id="header-nav">
+                <ul class="header__nav-list nav-list">
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#prices">Prices</a></li>
+                    <li><a href="#drivers">Drivers</a></li>
+                    <li><a href="#lang">Languages</a></li>
+                    <li><a href="#contacts">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="header__btn ">
+                <a class="call header__order-btn green-btn">
+                    <i class="icon-btn">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.8244 1.25353C10.8489 1.16215 10.8911 1.07649 10.9486 1.00143C11.0062 0.92637 11.078 0.863388 11.1599 0.816081C11.2418 0.768775 11.3322 0.738071 11.426 0.725725C11.5198 0.713378 11.6151 0.719631 11.7064 0.744125C13.0412 1.09238 14.259 1.79015 15.2344 2.76558C16.2098 3.741 16.9076 4.95881 17.2559 6.29358C17.2804 6.38494 17.2866 6.48023 17.2743 6.57401C17.2619 6.66779 17.2312 6.75822 17.1839 6.84013C17.1366 6.92204 17.0736 6.99382 16.9986 7.05138C16.9235 7.10894 16.8378 7.15115 16.7465 7.17559C16.6857 7.19156 16.623 7.19973 16.5602 7.19989C16.4015 7.19988 16.2473 7.14747 16.1215 7.0508C15.9957 6.95412 15.9053 6.8186 15.8645 6.66528C15.5804 5.57566 15.0109 4.5815 14.2147 3.78527C13.4185 2.98905 12.4243 2.41957 11.3347 2.13554C11.2433 2.11119 11.1575 2.06906 11.0823 2.01154C11.0072 1.95402 10.9441 1.88225 10.8967 1.80033C10.8493 1.71841 10.8185 1.62795 10.8061 1.53413C10.7937 1.4403 10.7999 1.34495 10.8244 1.25353ZM10.6147 5.01557C11.8558 5.34677 12.6532 6.14418 12.9844 7.38529C13.0253 7.5386 13.1156 7.67413 13.2414 7.7708C13.3673 7.86748 13.5215 7.91989 13.6801 7.9199C13.743 7.91974 13.8056 7.91157 13.8664 7.8956C13.9578 7.87115 14.0435 7.82895 14.1185 7.77139C14.1936 7.71383 14.2566 7.64205 14.3039 7.56014C14.3512 7.47823 14.3819 7.3878 14.3942 7.29402C14.4066 7.20024 14.4003 7.10495 14.3758 7.01359C13.915 5.28917 12.7108 4.08496 10.9864 3.62415C10.8951 3.59975 10.7998 3.59357 10.706 3.60599C10.6123 3.6184 10.5219 3.64916 10.44 3.6965C10.3582 3.74385 10.2864 3.80685 10.2289 3.88192C10.1714 3.95699 10.1293 4.04265 10.1049 4.13401C10.0804 4.22537 10.0743 4.32064 10.0867 4.41439C10.0991 4.50814 10.1299 4.59852 10.1772 4.68038C10.2246 4.76224 10.2876 4.83398 10.3626 4.89149C10.4377 4.949 10.5233 4.99116 10.6147 5.01557ZM17.9894 13.5971C17.8289 14.8167 17.23 15.9361 16.3045 16.7463C15.379 17.5566 14.1902 18.0022 12.9601 18C5.81406 18 8.14386e-06 12.1859 8.14386e-06 5.03987C-0.00219686 3.80982 0.443431 2.62102 1.25366 1.69552C2.06389 0.770017 3.18331 0.171096 4.40285 0.010618C4.71124 -0.0270376 5.02354 0.0360539 5.29313 0.190474C5.56271 0.344895 5.77513 0.582362 5.89866 0.867426L7.79948 5.11097V5.12177C7.89406 5.33998 7.93312 5.57822 7.91318 5.8152C7.89323 6.05219 7.8149 6.28055 7.68518 6.47988C7.66898 6.50418 7.65188 6.52668 7.63388 6.54918L5.76006 8.7704C6.43417 10.1402 7.86698 11.5604 9.2548 12.2363L11.4454 10.3724C11.4669 10.3543 11.4895 10.3375 11.5129 10.322C11.7121 10.1892 11.9412 10.1081 12.1796 10.0861C12.418 10.0641 12.6581 10.1019 12.8782 10.196L12.8899 10.2014L17.1299 12.1013C17.4154 12.2244 17.6535 12.4367 17.8084 12.7063C17.9633 12.9759 18.0268 13.2884 17.9894 13.5971ZM16.5602 13.4171H16.5503L12.3202 11.5226L10.1287 13.3865C10.1074 13.4046 10.0852 13.4214 10.0621 13.4369C9.85488 13.5752 9.61534 13.6573 9.36689 13.6753C9.11843 13.6933 8.86956 13.6465 8.64459 13.5395C6.95888 12.725 5.27856 11.0573 4.46315 9.38961C4.35518 9.16628 4.30672 8.91884 4.32249 8.67128C4.33826 8.42371 4.41771 8.18442 4.55315 7.9766C4.56842 7.95219 4.58557 7.92902 4.60445 7.9073L6.48007 5.68337L4.59005 1.45333C4.5897 1.44974 4.5897 1.44612 4.59005 1.44253C3.71727 1.55638 2.91593 1.98448 2.33608 2.64667C1.75624 3.30885 1.43766 4.1597 1.44002 5.03987C1.44336 8.09417 2.65815 11.0224 4.81787 13.1821C6.97758 15.3418 9.90583 16.5566 12.9601 16.56C13.8398 16.563 14.6904 16.2455 15.3529 15.667C16.0155 15.0884 16.4447 14.2883 16.5602 13.4162V13.4171Z" fill="black"/>
+                            </svg>
+                    </i>
+                    Order
+                </a>
+                <button id="nav-hamb" class="nav-btn"></button>
+            </div>
+
+        </div>
+    </header>
+    
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero__container hero-content">
+                    <div class="hero-title">
+                        <h1>Taxi in <span>Diss & surrounding</span> areas</h1>
+                    </div>
+                    <div class="hero-tags">
+                        <ul>
+                            <li>Taxi</li>
+                            <li>All destinations</li>
+                            <li>4 Car seats</li>
+                            <li>Polite</li>
+                            <li>Professional</li>
+                            <li>Friendly</li>
+                            <li>Punctual</li>
+                            <li>Speak 5 languages</li>
+                        </ul>
+                    </div>
+                    <a class="call hero__order-btn yellow-btn">
+                        <i class="icon-btn">
+                            <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.3573 1.67137C15.3907 1.54954 15.4485 1.43532 15.5274 1.33524C15.6062 1.23516 15.7046 1.15118 15.8168 1.08811C15.929 1.02503 16.0528 0.984095 16.1813 0.967633C16.3098 0.951171 16.4403 0.959507 16.5654 0.992167C18.3938 1.45651 20.062 2.38687 21.3982 3.68744C22.7343 4.988 23.6901 6.61174 24.1672 8.39144C24.2007 8.51325 24.2093 8.64031 24.1924 8.76535C24.1755 8.89039 24.1334 9.01096 24.0686 9.12017C24.0038 9.22938 23.9175 9.3251 23.8147 9.40184C23.7119 9.47859 23.5946 9.53486 23.4694 9.56745C23.3861 9.58875 23.3003 9.59964 23.2142 9.59985C22.9969 9.59984 22.7856 9.52996 22.6133 9.40106C22.4409 9.27216 22.3172 9.09146 22.2612 8.88704C21.8721 7.43421 21.092 6.10867 20.0014 5.04703C18.9107 3.9854 17.5489 3.22609 16.0563 2.84738C15.931 2.81493 15.8135 2.75874 15.7106 2.68205C15.6076 2.60536 15.5212 2.50967 15.4563 2.40044C15.3914 2.29122 15.3492 2.1706 15.3322 2.0455C15.3152 1.9204 15.3237 1.79327 15.3573 1.67137ZM15.07 6.68742C16.7701 7.12903 17.8624 8.19224 18.3161 9.84705C18.3721 10.0515 18.4958 10.2322 18.6682 10.3611C18.8405 10.49 19.0517 10.5599 19.2691 10.5599C19.3552 10.5596 19.441 10.5488 19.5243 10.5275C19.6494 10.4949 19.7668 10.4386 19.8696 10.3619C19.9724 10.2851 20.0587 10.1894 20.1235 10.0802C20.1883 9.97097 20.2304 9.8504 20.2473 9.72536C20.2642 9.60032 20.2556 9.47326 20.2221 9.35145C19.5909 7.05223 17.9413 5.44661 15.5792 4.8322C15.454 4.79966 15.3235 4.79143 15.1951 4.80798C15.0667 4.82454 14.9429 4.86555 14.8307 4.92867C14.7186 4.9918 14.6203 5.0758 14.5416 5.17589C14.4628 5.27598 14.405 5.39019 14.3716 5.51201C14.3382 5.63383 14.3297 5.76086 14.3467 5.88585C14.3637 6.01085 14.4058 6.13136 14.4707 6.24051C14.5356 6.34966 14.6219 6.4453 14.7247 6.52198C14.8275 6.59866 14.9449 6.65488 15.07 6.68742ZM25.172 18.1295C24.9521 19.7556 24.1317 21.2481 22.8639 22.3285C21.5962 23.4088 19.9677 24.0029 18.2828 24C8.49399 24 0.529796 16.2479 0.529796 6.71982C0.526776 5.07976 1.1372 3.4947 2.24707 2.26069C3.35694 1.02669 4.89034 0.228127 6.56089 0.0141573C6.98333 -0.0360501 7.41112 0.0480719 7.7804 0.253966C8.14969 0.45986 8.44066 0.776482 8.60988 1.15657L11.2137 6.81462V6.82902C11.3432 7.11997 11.3967 7.43762 11.3694 7.7536C11.3421 8.06959 11.2348 8.37406 11.0571 8.63984C11.0349 8.67224 11.0115 8.70224 10.9868 8.73224L8.42002 11.6939C9.34342 13.5203 11.3061 15.4139 13.2072 16.3151L16.2079 13.8299C16.2374 13.8058 16.2683 13.7833 16.3004 13.7627C16.5732 13.5856 16.8871 13.4775 17.2136 13.4481C17.5402 13.4188 17.8691 13.4692 18.1706 13.5947L18.1866 13.6019L23.9946 16.1351C24.3858 16.2992 24.7118 16.5822 24.9241 16.9417C25.1363 17.3012 25.2233 17.7179 25.172 18.1295ZM23.2142 17.8895H23.2006L17.4062 15.3635L14.4043 17.8487C14.3751 17.8727 14.3447 17.8952 14.313 17.9159C14.0292 18.1003 13.701 18.2098 13.3607 18.2337C13.0204 18.2577 12.6795 18.1954 12.3713 18.0527C10.0622 16.9667 7.76045 14.7431 6.64349 12.5195C6.49558 12.2217 6.42921 11.8918 6.45081 11.5617C6.47241 11.2316 6.58125 10.9126 6.76677 10.6355C6.78768 10.6029 6.81118 10.572 6.83705 10.5431L9.4063 7.57783L6.81732 1.93778C6.81683 1.93299 6.81683 1.92816 6.81732 1.92338C5.62177 2.07518 4.52407 2.64598 3.72979 3.52889C2.93551 4.4118 2.49912 5.54626 2.50235 6.71982C2.50692 10.7922 4.17097 14.6966 7.12938 17.5762C10.0878 20.4558 14.099 22.0755 18.2828 22.08C19.4877 22.084 20.6529 21.6607 21.5605 20.8893C22.4681 20.1178 23.056 19.051 23.2142 17.8883V17.8895Z" fill="#231F20"/>
+                             </svg>                                
+                        </i>
+                        Order Taxi
+                    </a>
+            </div>
+        </section>
+        <section id="destinations" class="dest">
+            <div class="dest__container dest-content">
+                    <div class="dest-title">
+                        <h5 class="title"><span>All</span> destinations</h5>
+                    </div>
+                    <div class="dest-groups">
+                        <ul class="dest-grids hide">
+                            <li>
+                                <i class="airports-icon dest-icon"></i>
+                               <span>All Airports</span>
+                            </li>
+                            <li>
+                                <i class="local-icon dest-icon"></i>
+                               <span>Local</span>
+                            </li>
+                            <li>
+                                <i class="train_stations-icon dest-icon"></i>
+                               <span>Train Stations</span>
+                            </li>
+                            <li>
+                              <i class="local_supermarkets-icon dest-icon"></i>
+                               <span>Local Supermarkets & Shops</span>
+                            </li>
+                            <li>
+                                <i class="seaports-icon dest-icon"></i>
+                               <span>Seaports</span>
+                            </li>
+                            <li>
+                                <i class="long_distances-icon dest-icon"></i>
+                               <span>Long Distances</span>
+                            </li>
+
+                            <li>
+                                <i class="parties-icon dest-icon"></i>
+                               <span>Parties</span>
+                            </li>
+                            <li>
+                                <i class="theatre-icon dest-icon"></i>
+                               <span>Theatre & Spacial Events</span>
+                            </li>
+                            <li>
+                                <i class="weddings-icon dest-icon"></i>
+                               <span>Weddings</span>
+                            </li>
+                            <li>
+                                <i class="local_pubs-icon dest-icon"></i>
+                               <span>Local Pubs & Hotels</span>
+                            </li>
+                            <li>
+                                <i class="courier-icon dest-icon"></i>
+                               <span>Courier</span>
+                            </li>
+                            <li>
+                                <i class="hospital-icon dest-icon"></i>
+                               <span>Hospital</span>
+                            </li>
+                        </ul>
+                        <button id="dest-show" class="show-btn">
+                            <i>
+                                <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.07104 0.773255L15.5071 0.773256L8.07104 11.1421L0.634947 0.773256L8.07104 0.773255Z" fill="#FEC500"/>
+                                </svg>                                    
+                            </i>
+                            <span id="show-btn-text">
+                                Show
+                            </span>
+                        </button>
+                    </div>
+            </div>
+        </section>
+        <section id="prices" class="prc">
+            <div class="prc__container prc-content">
+                    <div class="prc-title">
+                        <h5 class="title">PRICE</h5>
+                    </div>
+                    <div class="prc_sub-title">
+                        <h6>
+                            <span>2,3 £ <small>per mile</small></span>
+                            within city
+                        </h6>
+                        <h6>
+                            <span>Less</span>
+                            out of city
+                        </h6>
+                    </div>
+            </div>
+        </section>
+        <section id="drivers" class="drv">
+            <div class="drv__container drv-content">
+                    <div class="drv-title">
+                        <h5 class="title">Our <span>Drivers</span></h5>
+                    </div>
+                <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                            <div class="swiper-slide"><img src="assets/img/slides/driver-1.jpg" alt="Driver 1" title="Driver 1"></div>
+                            <div class="swiper-slide"><img src="assets/img/slides/driver-1.jpg" alt="Driver 2" title="Driver 2"></div>
+                            <div class="swiper-slide"><img src="assets/img/slides/driver-1.jpg" alt="Driver 3" title="Driver 3"></div>
+                            <div class="swiper-slide"><img src="assets/img/slides/driver-1.jpg" alt="Driver 4" title="Driver 4"></div>
+                            <div class="swiper-slide"><img src="assets/img/slides/driver-1.jpg" alt="Driver 5" title="Driver 5"></div>
+                        </div>
+
+                        <!-- If we need pagination -->
+                        <div class="drv-pagination swiper-pagination swiper-pagination-horizontal"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+
+                    
+                    
+                        <!-- If we need scrollbar -->
+                        <!-- <div class="swiper-scrollbar"></div> -->
+                    </div>
+                 <!-- END Slider main container -->
+            </div>
+        </section>
+        <section id="lang" class="lang">
+            <div class="lang__container lang-content">
+                    <div class="lang-title">
+                        <h5 class="title">we Speak <span>5 languages</span></h5>
+                    </div>
+                    <ul class="lang_list">
+                        <li class="english">
+                            <div class="lang_title">English</div>
+                            <div class="lang_img"></div>
+                        </li>
+                        <li class="ukrainian">
+                            <div class="lang_title">Ukrainian</div>
+                            <div class="lang_img"></div>
+                        </li>
+                        <li class="bulgarian">
+                            <div class="lang_title">Bulgarian</div>
+                            <div class="lang_img"></div>
+                        </li>
+                        <li class="polish">
+                            <div class="lang_title">Polish</div>
+                            <div class="lang_img"></div>
+                        </li>
+                        <li class="russian">
+                            <div class="lang_title">Russian</div>
+                            <div class="lang_img"></div>
+                        </li>
+                    </ul>
+            </div>
+        </section>
+        <section id="contacts" class="cnt">
+            <div class="cnt__container cnt-content">
+                    <div class="cnt-title">
+                        <h5 class="title">Contact us</h5>
+                    </div>
+                    <ul class="cnt_list">
+                        <li>
+                            <div class="cnt_title">E-mail</div>
+                            <div class="cnt_subtitle"><a href="mailto:easytaxidiss@gmail.com">easytaxidiss@gmail.com</a></div>
+                        </li>
+                        <li >
+                            <div class="cnt_title">Phone</div>
+                            <div class="cnt_subtitle"><a href="#" class="call">+447896562710</a></div>
+                        </li>
+                        <li>
+                            <div class="cnt_title">Schedule:</div>
+                            <div class="cnt_subtitle">Thu-Sat 8 AM till 12:00 PM<br>
+                                Sun-Wed 8 AM till 11:00 PM</div>
+                        </li>
+                    </ul>
+
+            </div>
+        </section>
+        <section id="map" class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387526.27850917785!2d-74.25986359999999!3d40.6971494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1632328862519!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer footer__container">
+
+            <div class="copy">
+                © 2023 EASY TAXI. All Rights Reserved
+            </div>
+            <a href="#" class="label">
+                Web development by <span class="logo"><img src="assets/img/swot.svg" alt=""></span>
+            </a>
+
+        </div>
+    </footer>
+    
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="assets/js/app.js"></script>

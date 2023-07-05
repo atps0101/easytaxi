@@ -1,0 +1,22 @@
+{
+  "name": "taxi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js"
+  },
+  "author": "SWOT",
+  "license": "ISC",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.4",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "swiper": "^9.4.1"
+  }
+}
